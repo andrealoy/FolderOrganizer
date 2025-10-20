@@ -154,9 +154,12 @@ executor.make_dirs(cleaned["structure"], target_path)
 ```
 if "unzip" in cleaned:
     executor.unzip_files(cleaned["unzip"])
-    main.py – Mode développeur (test sans UI)
+    
 ```
-
+### Le fichier main.py
+```
+main.py – Mode développeur (test sans UI)
+```
 Ce fichier permet de tester tout le pipeline sans Streamlit.
 Il exécute les étapes principales : GPT → JSON → création des dossiers.
 
