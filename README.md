@@ -154,9 +154,9 @@ executor.make_dirs(cleaned["structure"], target_path)
 ```
 if "unzip" in cleaned:
     executor.unzip_files(cleaned["unzip"])
-    
+
 ```
-### Le fichier main.py
+### Executer le fichier main.py
 ```
 main.py – Mode développeur (test sans UI)
 ```
