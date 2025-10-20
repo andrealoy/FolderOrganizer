@@ -148,6 +148,19 @@ L’interface Streamlit permettra à l’utilisateur de :
 3. Choisir un dossier de destination.  
 4. Lancer le traitement via les fonctions backend.  
 
+### Importer les classes
+```
+from core.gpt_client import GPTClient
+from core.json_utils import JSONHandler
+from core.executor import Executor
+```
+### Instancer les classes
+```
+gpt = GPTClient()
+handler = JSONHandler()
+executor = Executor()
+```
+
 ### Récupérer les entrées utilisateur
 
 ```
@@ -161,8 +174,8 @@ target_path = <chemin de destination>
 rsp = gpt.send_request(user_path, target_path, user_prompt)
 parsed = handler.parse_response(rsp)
 cleaned = handler.clean_json(parsed)
+#Sauvegarder les données au format json a la racine du projet
 handler.save(cleaned, "fstructure.json")
-st.json(cleaned)
 ```
 
 ### Créer les dossiers quand l’utilisateur clique sur “Créer la structure”
