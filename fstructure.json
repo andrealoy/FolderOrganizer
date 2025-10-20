@@ -1,0 +1,89 @@
+{
+  "structure": {
+    "notebooks": [
+      "/home/andreal/Documents/testdir_org/notebooks/test.ipynb",
+      "/home/andreal/Documents/testdir_org/notebooks/Session2.3_LoopsinPython.ipynb",
+      "/home/andreal/Documents/testdir_org/notebooks/Session2.4_FunctionWritingandHandlingExceptions.ipynb"
+    ],
+    "data": {
+      "movies": [
+        "/home/andreal/Documents/testdir_org/data/movies_metadata.csv"
+      ]
+    },
+    "documents": [
+      "/home/andreal/Documents/testdir_org/documents/AndreaLoyResume2026.pdf",
+      "/home/andreal/Documents/testdir_org/documents/resumold.pdf",
+      "/home/andreal/Documents/testdir_org/documents/resumeoldold.pdf",
+      "/home/andreal/Documents/testdir_org/documents/projet_webapp_predictive_k56.pdf",
+      "/home/andreal/Documents/testdir_org/documents/MiniprojectSQL.docx",
+      "/home/andreal/Documents/testdir_org/documents/MiniprojectSQL(1).docx",
+      "/home/andreal/Documents/testdir_org/documents/MiniprojetSQL.sql"
+    ],
+    "scripts": [
+      "/home/andreal/Documents/testdir_org/scripts/web-scrqp.py",
+      "/home/andreal/Documents/testdir_org/scripts/web-scrap.py",
+      "/home/andreal/Documents/testdir_org/scripts/install_houdini_launcher.sh"
+    ],
+    "images": [
+      "/home/andreal/Documents/testdir_org/images/ChatGPTImage15oct.2025,02_24_14.png"
+    ],
+    "models": [
+      "/home/andreal/Documents/testdir_org/3DModels/obj1.obj",
+      "/home/andreal/Documents/testdir_org/3DModels/obj2.obj"
+    ],
+    "projet_claire": [
+      "/home/andreal/Documents/testdir_org/projet_claire/swisstransfer_fee99ca2-ed62-4df4-ae72-45853142c804.zip"
+    ],
+    "houdini_scripts": [],
+    "archives": [
+      "/home/andreal/Documents/testdir_org/archives/movies_metadata.csv.zip",
+      "/home/andreal/Documents/testdir_org/archives/projet_claire/swisstransfer_fee99ca2-ed62-4df4-ae72-45853142c804.zip"
+    ],
+    "binaries": [
+      "/home/andreal/Documents/testdir_org/binaries/JavaCodingPack-0.4.2.exe",
+      "/home/andreal/Documents/testdir_org/binaries/install-houdini-launcher.exe"
+    ],
+    "misc": [
+      "/home/andreal/Documents/testdir_org/py_log.txt",
+      "/home/andreal/Documents/testdir_org/numbers.txt"
+    ]
+  },
+  "cleanup": [
+    "/home/andreal/Documents/Test_directory/Session 2.3_ Loops in Python.ipynb:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/Session 2.4_ Function Writing and Handling Exceptions.ipynb:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/test.ipynb:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/movies_metadata.csv.zip:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/projet_webapp_predictive_k56.pdf:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/AndreaLoyResume2026.pdf:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/ChatGPT Image 15 oct. 2025, 02_24_14.png:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/3DModels/obj1.obj:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/3DModels/obj2.obj:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/install_houdini_launcher.sh:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/web-scrqp.py:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/web-scrap.py:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/resumold.pdf:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/resumeoldold.pdf:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/Mini project SQL .docx:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/Mini project SQL  (1).docx:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/install-houdini-launcher.exe:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/spark-4.0.0-bin-hadoop3.tgz:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/spark-4.0.0-bin-hadoop3.tgz:Zone.Identifier:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/AndreaLoyResume2026.pdf:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/movies_metadata.csv.zip:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/Session 2.3_ Loops in Python.ipynb:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/test.ipynb:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/3DModels/obj1.obj:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/3DModels/obj2.obj:Zone.Identifier",
+    "/home/andreal/Documents/Test_directory/ChatGPT Image 15 oct. 2025, 02_24_14.png:Zone.Identifier"
+  ],
+  "unzip": [
+    {
+      "source": "/home/andreal/Documents/testdir_org/archives/movies_metadata.csv.zip",
+      "destination": "/home/andreal/Documents/testdir_org/data/movies_metadata.csv"
+    },
+    {
+      "source": "/home/andreal/Documents/testdir_org/archives/projet_claire/swisstransfer_fee99ca2-ed62-4df4-ae72-45853142c804.zip",
+      "destination": "/home/andreal/Documents/testdir_org/projet_claire/swisstransfer_fee99ca2-ed62-4df4-ae72-45853142c804"
+    }
+  ]
+}
