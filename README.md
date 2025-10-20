@@ -19,10 +19,10 @@ FolderOrganizer/
 ```
 
 ### Branches principales
-
-main:	Version stable, propre et fonctionnelle	Andrea (merge uniquement quand tout marche)
-dev:	Branche de travail principale (backend + UI)	Andrea & Colline
-playground:	Zone de test libre (prototypes, essais rapides)	
+  
+main:	Version stable, propre et fonctionnelle	Andrea (merge uniquement quand tout marche)  
+dev:	Branche de travail principale (backend + UI)	Andrea & Colline  
+playground:	Zone de test libre (prototypes, essais rapides)	  
 
 ### Workflow quotidien
 ### Étape 1 – Se mettre à jour
@@ -119,11 +119,10 @@ Créer toute la logique interne (GPT, parsing, création de dossiers, copie, unz
 ###  Objectif
 Créer l’interface Streamlit et la connecter aux fonctions du backend.
 
-Éléments à inclure
-Élément	                         Type	                Variable	 Description
-📁 Sélecteur de dossier source	Drag & drop ou bouton	user_path	Dossier à organiser
-💬 Champ texte	                Text area	            user_prompt	Description de l’organisation souhaitée
-🎯 Sélecteur de dossier cible	Bouton / file picker	target_path	Dossier de destination
+
+-élément: 📁 Sélecteur de dossier source	type: Drag & drop ou bouton	variable: user_path	     description: Dossier à organiser  
+-élément: 💬 Champ texte	                type: Text area	            variable: user_prompt	 description: Description de l’organisation souhaitée  
+-élément: 🎯 Sélecteur de dossier cible	    type: Bouton / file picker	variable: target_path	 description: Dossier de destination  
 
 ## Fonctionnement à implémenter dans Streamlit:
 
