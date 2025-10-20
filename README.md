@@ -115,16 +115,38 @@ Créer toute la logique interne (GPT, parsing, création de dossiers, copie, unz
 
  Vérifier que les fichiers de "ignore" ne sont pas présents ailleurs dans le JSON.
 
-### Colline – Partie "Interface Streamlit"
-###  Objectif
-Créer l’interface Streamlit et la connecter aux fonctions du backend.
+## 🎨 Colline – Partie *Interface Streamlit*
 
+### 🎯 Objectif  
+Créer l’interface **Streamlit** et la connecter aux fonctions du backend.
 
--élément: 📁 Sélecteur de dossier source	type: Drag & drop ou bouton	variable: user_path	     description: Dossier à organiser  
--élément: 💬 Champ texte	                type: Text area	            variable: user_prompt	 description: Description de l’organisation souhaitée  
--élément: 🎯 Sélecteur de dossier cible	    type: Bouton / file picker	variable: target_path	 description: Dossier de destination  
+---
 
-## Fonctionnement à implémenter dans Streamlit:
+### 🧩 Éléments de l’interface
+
+#### 📁 Sélecteur de dossier source  
+- **Type :** Drag & Drop ou bouton  
+- **Variable :** `user_path`  
+- **Description :** Dossier à organiser  
+
+#### 💬 Champ texte  
+- **Type :** Text area  
+- **Variable :** `user_prompt`  
+- **Description :** Description de l’organisation souhaitée  
+
+#### 🎯 Sélecteur de dossier cible  
+- **Type :** Bouton / file picker  
+- **Variable :** `target_path`  
+- **Description :** Dossier de destination  
+
+---
+
+### ⚙️ Fonctionnement général  
+L’interface Streamlit permettra à l’utilisateur de :  
+1. Sélectionner un dossier source.  
+2. Décrire l’organisation souhaitée via un prompt textuel.  
+3. Choisir un dossier de destination.  
+4. Lancer le traitement via les fonctions backend.  
 
 ### Récupérer les entrées utilisateur
 
