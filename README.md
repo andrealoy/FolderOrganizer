@@ -1,6 +1,3 @@
-# FolderOrganizer
-An Open-AI API based folder organizer.
-
 # 🗂️ Folder Organizer
 
 **Folder Organizer** est un projet Python qui permet de réorganiser automatiquement un dossier à l’aide de GPT.  
@@ -128,14 +125,14 @@ Créer l’interface Streamlit et la connecter aux fonctions du backend.
 💬 Champ texte	                Text area	            user_prompt	Description de l’organisation souhaitée
 🎯 Sélecteur de dossier cible	Bouton / file picker	target_path	Dossier de destination
 
-### Fonctionnement à implémenter dans Streamlit:
+## Fonctionnement à implémenter dans Streamlit:
 
 ### Récupérer les entrées utilisateur
 
 ```
-user_path = <<dossier sélectionné>>
-user_prompt = <<texte saisi>>
-target_path = <<chemin de destination>>
+user_path = <dossier sélectionné>
+user_prompt = <texte saisi>
+target_path = <chemin de destination>
 ```
 
 ### Envoyer les infos à GPT
